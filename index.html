@@ -5,59 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Михаил Горбунов, Александр Кузнецов" />
-    <meta name="keywords" content="Поездка, путешествия, лес, горы, море"/>
-    <link rel="stylesheet" href="./pages/index.css">
+    <meta name="keywords" content="Поездка, путешествия, лес, горы, море" />
+    <link rel="stylesheet" href="pages/index.css">
     <title>Куда я поеду</title>
 </head>
 
 <body class="page">
-    <header class="header" >
-        <menu class="header__menu">
-            <ul class="header__menu-items">
-                <li class="header__menu-item">
-                    <a href="#dreams" class="header__menu-link">
-                        Мечты
-                    </a>
+
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="#dreams" class="header__link">Мечты</a>
                 </li>
-                <li class="header__menu-item">
-                    <a href="#expectations" class="header__menu-link">
-                        Ожидания
-                    </a>
+                <li class="header__item">
+                    <a href="#expectations" class="header__link">Ожидания</a>
                 </li>
-                <li class="header__menu-item">
-                    <a href="#reality" class="header__menu-link">
-                        Реальность
-                    </a>
+                <li class="header__item">
+                    <a href="#reality" class="header__link">Реальность</a>
                 </li>
             </ul>
-        </menu>
-        <a href="#" class="header__feedback">
-            Пожаловаться
-        </a>
+        </nav>
+        <a href="#" class="header__feedback">Пожаловаться</a>
     </header>
+
     <main class="main">
         <section class="lead" id="dreams">
             <div class="lead__description">
-                <h1 class="lead__title">
-                    Куда я поеду
-                </h1>
-                <p class="lead__subtitle">
-                    Куда я поеду сразу, как можно будет куда-то поехать
-                </p>
+                <h1 class="lead__title">Куда я поеду</h1>
+                <p class="lead__subtitle">Куда я поеду сразу, как можно будет куда-то поехать</p>
             </div>
-            <img 
-                src="./images/intro-image.jpeg" 
-                alt="Фотография вид на небо из самолёта" 
-                class="lead__image"
-            />
+            <img src="./images/intro-image.jpeg" alt="Самолет над облаками" class="lead__image" />
         </section>
+        <!--
         <section class="places" id="expectations">
             <article class="place">
-                <img
-                    src="./images/places-forest.jpeg"
-                    alt="фотография леса"
-                    class="place__image"
-                />
+                <img src="./images/places-forest.jpeg" alt="фотография леса" class="place__image" />
                 <div class="place__description">
                     <h2 class="place__title">
                         Поеду в лес
@@ -67,8 +50,8 @@
                             Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.
                         </p>
                         <p class="place__paragraph">
-                            Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. 
-                            В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. 
+                            Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях.
+                            В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение.
                             Леса занимают около трети площади суши.
                         </p>
                     </div>
@@ -81,34 +64,30 @@
                     </h2>
                     <div class="place_paragraphs">
                         <p class="place__paragraph">
-                            Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки.
-                             В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.
+                            Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 %
+                            — Южной Америки, 17 % — Австралии и 3 % — Африки.
+                            В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор.
+                            В горах берёт своё начало большинство рек Земли.
                         </p>
                     </div>
                 </div>
-                <img
-                    src="./images/places-mountains.jpeg"
-                    alt="фотография гор"
-                    class="place__image"
-                />
+                <img src="./images/places-mountains.jpeg" alt="фотография гор" class="place__image" />
             </article>
             <article class="place">
-                <img
-                    src="./images/places-black-sea.jpeg"
-                    alt="фотография чёрного моря"
-                    class="place__image"
-                />
+                <img src="./images/places-black-sea.jpeg" alt="фотография чёрного моря" class="place__image" />
                 <div class="place__description">
                     <h2 class="place__title">
                         Поеду на Чёрное море
                     </h2>
                     <div class="place_paragraphs">
                         <p class="place__paragraph">
-                            Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. 
-                            Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.
+                            Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше
+                            не был, я уплыву.
+                            Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо,
+                            я позову.
                         </p>
                         <p class="place__paragraph">
-                            Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. 
+                            Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я.
                             Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.
                         </p>
                         <p class="place__paragraph">
@@ -118,6 +97,7 @@
                 </div>
             </article>
         </section>
+
         <section class="quotes" id="reality">
             <h2 class="quotes__title">Люди</h2>
             <p class="quotes__subtitle">Что говорят и говорили люди о путешествиях</p>
@@ -151,15 +131,15 @@
                         Мария Захарова
                     </h3>
                     <p class="quotes__text">
-                        В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное предприятие.
+                        В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное
+                        предприятие.
                     </p>
                 </li>
             </ul>
         </section>
-        <section class="footer">
-
-        </section>
+        -->
     </main>
+
     <footer class="footer">
         <p class="footer__copyright">
             &copy; 2021 Александр Кузнецов и Михаил Горбунов

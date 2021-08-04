@@ -2,4 +2,10 @@
     font-size: 12px;
     line-height: 1.15;
     font-weight: bold;
+    max-width: 1280px;
+    min-height: 113px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 66px 0;
 }
