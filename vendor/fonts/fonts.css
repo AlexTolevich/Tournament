@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'AkzidenzGroteskPro';
+	font-style:  normal;
+	font-weight: 700; /*bold*/
+	font-display: swap;
+	src: url('./akzidenzgroteskpro-bold.woff2') format('woff2'),
+		 url('./akzidenzgroteskpro-bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'AkzidenzGroteskPro';
+	font-style:  normal;
+	font-weight: 400; /*normal*/
+	font-display: swap;
+	src: url('./akzidenzgroteskpro-regular.woff2') format('woff2'), 
+		 url('./akzidenzgroteskpro-regular.woff') format('woff');
+}
