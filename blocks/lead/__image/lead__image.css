@@ -3,3 +3,17 @@
     height: 356px;
     object-fit: cover;
 }
+
+@media screen and (max-width: 1279px) {
+    .lead__image {
+        width: 310px;
+        height: 310px;
+    }
+  }
+
+@media screen and (max-width: 1023px) {
+    .lead__image {
+        width: 260px;
+        height: 260px;
+    }
+  }

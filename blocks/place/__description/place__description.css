@@ -6,3 +6,16 @@
     min-height: 385px;
     padding: 64px 70px;
 }
+
+@media screen and (max-width: 1279px) {
+    .place__description {
+        padding: 54px 60px;
+        min-height: 185px;
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .place__description {
+        padding: 44px 40px;
+    }
+  }

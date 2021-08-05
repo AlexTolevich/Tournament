@@ -2,3 +2,15 @@
     list-style: none;
     max-width: 240px;
 }
+
+@media screen and (max-width: 1279px) {
+    .quotes__table-cell {
+        max-width: 230px;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .quotes__table-cell {
+        max-width: 175px;
+    }
+  }

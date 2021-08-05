@@ -1,6 +1,19 @@
 .quotes__table {
     display: flex;
     flex-direction: row;
-    padding: 0 40px 110px;
+    padding: 0 40px 126px;
     justify-content: space-around;
+    margin: 0;
 }
+
+@media screen and (max-width: 1279px) {
+    .quotes__table {
+        padding: 0 30px 70px;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .quotes__table {
+        padding: 0 10px 40px;
+    }
+  }
