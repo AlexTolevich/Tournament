@@ -23,3 +23,10 @@
         padding: 0 26px 0;
     }
   }
+
+  @media screen and (max-width: 676px) {
+    .header {
+        align-items: flex-start;
+        
+    }
+  }

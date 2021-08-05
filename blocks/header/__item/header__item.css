@@ -5,3 +5,11 @@
 .header__item:last-child {
     margin-right: 0;
 }
+
+@media screen and (max-width: 676px) {
+    .header__item {
+        margin-top: 10px;
+        
+        
+    }
+  }

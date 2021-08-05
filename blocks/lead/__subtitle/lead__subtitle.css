@@ -11,3 +11,11 @@
         font-size: 28px;
     }
   }
+
+  @media screen and (max-width: 676px) {
+    .lead__subtitle {
+        color: #fae9dc;
+        margin: 0 26px;
+        max-width: ;
+    }
+  }
