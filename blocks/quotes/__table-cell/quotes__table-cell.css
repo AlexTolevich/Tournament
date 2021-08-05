@@ -1,3 +1,4 @@
 .quotes__table-cell {
-    
+    list-style: none;
+    max-width: 240px;
 }
