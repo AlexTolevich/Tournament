@@ -10,10 +10,17 @@
     .quotes__text {
         line-height: 16px;
     }
-  }
+}
   
-  @media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .quotes__text {
         line-height: 14px;
     }
-  }
+}
+
+@media screen and (max-width: 434px) {
+    .quotes__text {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+}

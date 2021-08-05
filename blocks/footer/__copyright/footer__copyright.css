@@ -1,24 +1,12 @@
 .footer__copyright {
     margin: 0;
     font-size: 36px;
-    font-weight: bold;
-    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
     .footer__copyright {
-        font-size: 28px;
+      font-size: calc(36px - 26 *(1280px - 100vw) / (1280 - 320));
     }
-  }
-  
-  @media screen and (max-width: 1023px) {
-    .footer__copyright {
-        font-size: 24px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .footer__copyright {
-        font-size: 18px;
-    }
-  }
+}

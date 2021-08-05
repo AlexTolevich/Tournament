@@ -9,14 +9,14 @@
         width: 310px;
         height: 310px;
     }
-  }
+}
 
 @media screen and (max-width: 1023px) {
     .lead__image {
         width: 260px;
         height: 260px;
     }
-  }
+}
 
   @media screen and (max-width: 676px) {
     .lead__image {
@@ -25,4 +25,4 @@
         grid-column: 1/2;
         z-index: -1;
     }
-  }
+}
