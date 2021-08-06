@@ -10,4 +10,7 @@
   .header__item {
     margin: 10px 5px;
   }
+  .header__item:first-child {
+    margin-left: 0;
+  }
 }
