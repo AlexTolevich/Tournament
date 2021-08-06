@@ -1,15 +1,15 @@
 .quotes {
-    padding: 136px 70px 126px; 
+  padding: 136px 70px 126px;
 }
 
 @media screen and (max-width: 1023px) {
-    .quotes {
-        padding: 70px 50px 70px; 
-    }
+  .quotes {
+    padding: 70px 50px 70px;
+  }
 }
 
 @media screen and (max-width: 434px) {
-    .quotes {
-        padding: 40px 20px 30px; 
-    }
+  .quotes {
+    padding: 40px 20px 30px;
+  }
 }

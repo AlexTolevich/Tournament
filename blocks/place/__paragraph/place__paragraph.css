@@ -1,14 +1,14 @@
 .place__paragraph {
-    font-size: 14px;
-    margin: 0;
-    padding-top: 22px;
-    line-height: 1.45;
-    letter-spacing: 0.2px;
-    max-width: 372px;
+  font-size: 14px;
+  margin: 0;
+  padding-top: 22px;
+  line-height: 1.45;
+  letter-spacing: 0.2px;
+  max-width: 372px;
 }
 
 @media screen and (max-width: 676px) {
-    .place__paragraph {
-        font-size: calc(16px - 2 *(676px - 100vw) / (676 - 320));
-    }
+  .place__paragraph {
+    font-size: calc(16px - 2 *(676px - 100vw) / (676 - 320));
+  }
 }

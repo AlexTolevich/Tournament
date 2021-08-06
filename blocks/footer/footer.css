@@ -1,26 +1,26 @@
 .footer {
-    width: 100%;
-    min-height: 620px;
-    background-color: #fecda7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  min-height: 620px;
+  background-color: #fecda7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1279px) {
-    .footer {
-        min-height: 465px;
-    }
+  .footer {
+    min-height: 465px;
   }
-  
-  @media screen and (max-width: 1023px) {
-    .footer {
-        min-height: 320px;
-    }
   }
-  
-  @media screen and (max-width: 767px) {
-    .footer {
-        min-height: 180px;
-    }
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    min-height: 320px;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    min-height: 180px;
+  }
+}

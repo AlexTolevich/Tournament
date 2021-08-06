@@ -1,12 +1,12 @@
 .quotes__author {
-    margin: 0;
-    font-size: 12px;
-    line-height: 1.15;
-    text-transform: uppercase;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.15;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 434px) {
-    .quotes__author {
-        font-size: 17px;
-    }
+  .quotes__author {
+    font-size: 17px;
+  }
 }

@@ -1,11 +1,11 @@
 .lead__description {
-    max-width: 535px;
+  max-width: 535px;
 }
 
 @media screen and (max-width: 676px) {
-    .lead__description {
-        grid-row: 1/2;
-        grid-column: 1/2;
-        z-index: 1;
-    }
+  .lead__description {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    z-index: 1;
+  }
 }

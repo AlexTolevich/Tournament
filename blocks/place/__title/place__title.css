@@ -1,18 +1,18 @@
 .place__title {
-    font-size: 32px;
-    line-height: 1.15;
-    margin: 0;
-    letter-spacing: 0.85px;
+  font-size: 32px;
+  line-height: 1.15;
+  margin: 0;
+  letter-spacing: 0.85px;
 }
 
 @media screen and (max-width: 1023px) {
-    .place__title {
-        font-size: 28px;
-    }
+  .place__title {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 676px) {
-    .place__title {
-        font-size: calc(40px - 12 *(676px - 100vw) / (676 - 320));
-    }
+  .place__title {
+    font-size: calc(40px - 12 *(676px - 100vw) / (676 - 320));
+  }
 }

@@ -1,15 +1,15 @@
 .header__list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    min-width: 256px;
-    display: flex;
-    justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 256px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 435px) {
-    .header__list {
-      flex-direction: column;
-      min-width: 0;
-    }
+  .header__list {
+    flex-direction: column;
+    min-width: 0;
+  }
 }
