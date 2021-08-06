@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 1023px) {
   .place__description {
-    padding: max(4vw, 26px) max(4vw, 26px);
+    padding: max(4vw, 26px);
   }
 }
 
