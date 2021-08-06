@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 676px) {
   .place__paragraph {
-    font-size: calc(16px - 2 *(676px - 100vw) / (676 - 320));
+    /* font-size: calc(16px - 2 *(676px - 100vw) / (676 - 320)); */
+    font-size: max(2.4vw, 14px);
   }
 }

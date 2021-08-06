@@ -7,6 +7,6 @@
 
 @media screen and (max-width: 1280px) {
   .footer__copyright {
-    font-size: calc(36px - 26 *(1280px - 100vw) / (1280 - 320));
+    font-size: max(2.8vw, 10px);
   }
 }
