@@ -4,12 +4,12 @@
 
 @media screen and (max-width: 1023px) {
   .quotes {
-    padding: 70px 50px 70px;
+    padding: 60px 50px 70px;
   }
 }
 
-@media screen and (max-width: 434px) {
+@media screen and (max-width: 767px) {
   .quotes {
-    padding: 40px 20px 30px;
+    padding: max(5.2vw, 20px) 26px 30px;
   }
 }

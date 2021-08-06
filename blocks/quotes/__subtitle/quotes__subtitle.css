@@ -14,3 +14,10 @@
     margin-bottom: 60px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .quotes__subtitle {
+    line-height: 1.1;
+    margin-bottom: max(7.8vw, 30px);
+  }
+}

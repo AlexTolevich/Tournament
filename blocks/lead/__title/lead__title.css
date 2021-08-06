@@ -9,7 +9,7 @@
   letter-spacing: 0.5px;
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 767px) {
   .lead__title {
     color: #fae9dc;
     margin-left: 26px;

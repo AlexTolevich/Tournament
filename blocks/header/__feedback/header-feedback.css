@@ -1,10 +1,15 @@
 .header__feedback {
   color: #000;
   text-decoration: none;
+  transition: opacity .3s linear;
 }
 
-@media screen and (max-width: 676px) {
+.header__feedback:hover {
+  opacity: .5;
+}
+
+@media screen and (max-width: 767px) {
   .header__feedback {
-    margin-top: 10px;
+    margin: 10px 0;
   }
 }

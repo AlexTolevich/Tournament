@@ -2,18 +2,25 @@
   font-size: 32px;
   line-height: 1.15;
   margin: 0;
+  margin-bottom: 124px;
   letter-spacing: 0.85px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__title {
+    margin-bottom: min(6vw, 124px);
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .place__title {
     font-size: 28px;
+    margin-bottom: 3vw;
   }
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 767px) {
   .place__title {
-    /* font-size: calc(40px - 12 *(676px - 100vw) / (676 - 320)); */
-    font-size: max(5.9vw, 28px);
+    font-size: max(4.2vw, 28px);
   }
 }
