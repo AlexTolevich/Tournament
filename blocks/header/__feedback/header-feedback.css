@@ -2,3 +2,9 @@
   color: #000;
   text-decoration: none;
 }
+
+@media screen and (max-width: 676px) {
+  .header__feedback {
+    margin-top: 10px;
+  }
+}

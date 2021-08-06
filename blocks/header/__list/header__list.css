@@ -1,15 +1,13 @@
 .header__list {
   list-style: none;
-  padding: 0;
-  margin: 0;
-  min-width: 256px;
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    padding: 0;
+    margin: 0;
 }
 
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 676px) {
   .header__list {
-    flex-direction: column;
-    min-width: 0;
+    flex-direction: row;
+    align-items: flex-start;
   }
 }
